@@ -501,12 +501,6 @@ else
 				end
 			end
 	
-			Lootlibs.Activated:Connect(function()
-				setclipboard("https://discord.gg/j8QP4uW8aj")
-				StatusLabel.Text = "Lootlabs is discontinued, please pick another option."
-				MakeParticleSystsmeWHATUNITYPARTICLESYSTEM(Lootlibs.Parent)
-			end)
-	
 			Workinky.Activated:Connect(function()
 				setclipboard("https://ads.luarmor.net/get_key?for=Syncsaken__Work_Ink-mKLKlrCGjvWG")
 				StatusLabel.Text = "WorKink link copied to clipboard!"
